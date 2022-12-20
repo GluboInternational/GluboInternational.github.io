@@ -49,6 +49,12 @@ body {
     padding: 20px;
   }
 
+  hr.dotted {
+    border: 2px dashed #f1c40f;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
   /* The image container, which will contain all of the images to be displayed in the modal */
 #imageContainer {
   display: flex; /* Display the images in a row */
