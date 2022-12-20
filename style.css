@@ -48,3 +48,45 @@ body {
     text-align: center;
     padding: 20px;
   }
+
+  /* The image container, which will contain all of the images to be displayed in the modal */
+#imageContainer {
+  display: flex; /* Display the images in a row */
+  overflow-x: auto; /* Add a horizontal scrollbar if needed */
+}
+
+/* The images that will be displayed in the modal */
+.modal-image {
+  flex: 0 0 auto; /* Shrink the images to fit the container */
+  width: auto; /* Set the width to auto to maintain the aspect ratio */
+  height: 500px; /* Set a fixed height */
+  margin-right: 20px; /* Add some space between the images */
+}
+
+/* Style the rest of the modal as in the previous example */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
