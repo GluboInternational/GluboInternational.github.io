@@ -34,6 +34,14 @@ body {
     color: #7f8c8d;
   }
   
+  .content li {
+    color: #7f8c8d;
+    list-style-type: disc;
+  }
+  .content h3{
+    color: #f1c40f;
+  }
+
   .footer {
     background-color: #ecf0f1;
     color: #7f8c8d;
