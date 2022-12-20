@@ -79,6 +79,7 @@ body {
 figure {
   padding-left: 45px;
   padding-top: 30px;
+  padding-bottom: 15px;
   background-color: white;
   border-radius: 15px;
 }
@@ -115,7 +116,7 @@ figcaption {
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
