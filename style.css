@@ -53,14 +53,37 @@ body {
 #imageContainer {
   display: flex; /* Display the images in a row */
   overflow-x: auto; /* Add a horizontal scrollbar if needed */
+  margin-top: 20%;
+}
+
+#openModalButton {
+  padding: 15px;
+  font: inherit;
+  color: #fff;
+  background-color: #f1c40f;
+  border-radius: 10px;
 }
 
 /* The images that will be displayed in the modal */
 .modal-image {
   flex: 0 0 auto; /* Shrink the images to fit the container */
   width: auto; /* Set the width to auto to maintain the aspect ratio */
-  height: 500px; /* Set a fixed height */
-  margin-right: 20px; /* Add some space between the images */
+  height: 450px; /* Set a fixed height */
+  margin-right: 50px; /* Add some space between the images */
+  align-items: center;
+  background-color: #ecf0f1;
+  border-radius: 30px;
+  
+}
+
+figcaption {
+  background-color: #fff;
+  color: #34495e;
+  width: 450px;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Style the rest of the modal as in the previous example */
